@@ -1,0 +1,56 @@
+body {
+    margin: 0; /* Reset default margin */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Ensure the div takes up at least the full viewport height */
+    background-color: #f0f0f0; /* Just for visualization */
+}
+
+.container{
+    width: 350px; /* Set the width of the centered div */
+     /* Add padding for spacing */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+ 
+}
+img{
+    width: 100%;
+}
+.content h4,h1,p{
+  
+    margin: 0 ;
+}
+.content h4{
+  
+    margin: 0 ;
+}
+.content{
+    padding: 0 10px;
+}
+#options{
+    margin: 15px 0;
+    font-weight: 700;
+}
+#options select{
+    border-radius: 25px;
+}
+button{
+    font-weight: 500;
+    padding:5px 25px;
+    border: none;
+}
+.buttons{
+    display: flex;
+    
+}
+button:nth-of-type(1){
+    background-color: #85E6C5;
+}
+button:nth-of-type(2){
+    background-color:#33BBC5;
+}
+button:nth-of-type(3){
+    background-color: #F94C10;
+}
